@@ -44,7 +44,7 @@ dependencyResolutionManagement {
             // Fabric
             plugin("fabric-loom", "fabric-loom").version("1.8.6")
             version("fabric-loader", "0.15.10")
-            version("fabric-api", "0.99.0+1.20.6")
+            version("fabric-api", "0.114.4+1.21.5")
             version("adventure-platform-fabric", "5.13.0")
 
             library("fabric-loader", "net.fabricmc", "fabric-loader").versionRef("fabric-loader")
